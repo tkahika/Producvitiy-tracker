@@ -1,0 +1,126 @@
+:root {
+    --primary: #778899;
+    --darkest: #1f2937;
+    --dark: #2f4f4f;
+    --light: #FFFFF0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'arial', 'Arial Narrow', Arial, sans-serif
+}
+
+.app-text-center {
+    text-align: center;
+    background-color: var(--dark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 4rem 2 rem;
+    border-radius: 1rem;
+}
+
+.header-timer {
+    text-align: center;
+    background-color: var(--dark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 2 rem;
+    border-radius: 1rem;
+}
+
+body {
+    background: var(--darkest);
+    color: var(--light);
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: var(--dark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 2 rem;
+    border-radius: 1rem;
+}
+
+.timer {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    color: var(--light);
+    font-size: 1.5rem;
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1 rem;
+    border-radius: 0.5;
+    transition: 0.2s;
+}
+
+.controls-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.controls-sec button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    color: var(--light);
+    font-size: 1.5rem;
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1 rem;
+    border-radius: 0.5;
+    transition: 0.2s;
+}
+
+
+button:hover {
+    opacity: 0.4;
+    background-color: var(--darkest);
+}
+
+.tally-section {
+    text-align: center;
+    background-color: var(--dark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    }
+
+.footer-info {
+    text-align: center;
+    display: block;
+    margin-block-end: 2rem ;
+    }
+
+.counter {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    }
